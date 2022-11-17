@@ -1,0 +1,26 @@
+body {
+    background-color: #f4b8c4;
+}
+
+p {
+    font-family: 'Rubik Bubbles', cursive;
+    font-size: 60px;
+
+    position:relative;
+    margin-top: 50px;
+    margin-left: 550px;
+    
+}
+
+a {
+    font-size: 40px;
+
+    position:relative;
+    margin-top: 50px;
+    margin-left: 450px;
+}
+
+#letter {
+    color: rgb(42, 33, 162);
+    margin-left: 700px;
+}

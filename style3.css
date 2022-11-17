@@ -1,0 +1,80 @@
+body {
+    background-color: #f4b8c4;
+    background-image: url("z3847814989687_6ca92c4c32e0bab122d2749ce088db07.jpg");
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+}
+
+p {
+    font-size: x-large;
+    font-family: "Press Start 2P", "consolas", sans-serif;
+    position: absolute;
+    left: 22%;
+    text-shadow: 3px 3px 0px rgb(207, 100, 117);
+}
+
+a {
+    font-size: x-large;
+}
+
+.fa-heart {
+    font-size: 150px;
+    animation: 3s linear 0s infinite running myChange;
+}
+
+#heart1 {
+    position: relative;
+    left: -385px;
+    bottom: 210px;
+}
+
+#heart2 {
+    position: relative;
+    left: 50px;
+    bottom: 210px;
+}
+
+@keyframes myChange {
+    0% {
+        color: rgb(247, 149, 166);
+        font-size: 55px;
+    }
+    20% {
+        color: rgb(251, 137, 156);
+        font-size: 60px;
+    }
+    40% {
+        color: rgb(252, 113, 136);
+        font-size: 65px;
+    }
+    60% {
+        color: rgb(252, 113, 136);
+        font-size: 60px;
+    }
+    80% {
+        color: rgb(251, 137, 156);
+        font-size: 55px;
+    }
+    99% {
+        color:rgb(251, 151, 168);
+        font-size: 50px;
+    }
+    100% {
+        color:rgb(251, 151, 168);
+        font-size: 55px;
+    }
+}
+
+video {
+    position: relative;
+    top: 100px;     
+    left: 450px;
+    width: 500px;
+}
+
+audio {
+    position: relative;
+    top: 175px;
+    left: 50px;
+}

@@ -1,0 +1,33 @@
+body {
+    background-color: #f4b8c4;
+}
+
+p {
+    font-size: x-large;
+}
+
+a {
+    font-size: x-large;
+}
+
+.but {
+    background-color: #fa9eb0;
+    color: rgb(98, 38, 133);
+    width: 160px;
+    height: 80px;
+    font-size: x-large;
+}
+
+.but:hover {
+    background-color: #f77b94;
+    color: black;
+    width: 160px;
+    height: 80px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#choosenbut:link {
+    color: rgb(243, 237, 237);
+    text-decoration: none;
+}
